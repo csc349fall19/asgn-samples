@@ -1,7 +1,7 @@
 Included are six implementations of a recursive algorithm to calculate the
 nth Fibonacci number, along with invoking shell scripts for each.
 
-You may implement your assignments in one of the following:
+You may implement your assignments in one of the following languages:
     * Python 3.7.3
     * Java 11.0.3
     * Clojure 1.10.0 (You may assume that the Clojure JARs are in the classpath
@@ -10,8 +10,8 @@ You may implement your assignments in one of the following:
     * Kotlin 1.3.21 (You may assume that the Kotlin lib is in the classpath and
       that the Kotlin bin is in the path, for JVM-backed Kotlin.)
     * Node.js 11.13.0
-    * GNU Bash 5.0.2 (Technically, you could choose to write your entire
-      assignment in Bash, and you should be fine, not that I'd recommend it)
+    * GNU Bash 5.0.2 (Not that I'd recommend it -- this is very much not what
+      Bash was designed for.)
 
 To make automated grading possible, you will additionally need to submit two
 short shell scripts: one to compile your submission, one to run it. For
@@ -22,15 +22,14 @@ example, all of the included Fibonacci implementations can be run using:
     144
     >$
 
-Further requirements:
-    * Don't put files into different directories. All directories will be
-      ignored by my grading programs. Leave everything in the top level of
-      your repository.
+Furthermore:
+    * Submit only source code files as they are. Any directories or compressed
+      files will be ignored.
     * For record-keeping purposes, you must hand in original source files, not
       pre-compiled files.
     * You may not use *any* third party libraries (and your script won't have
-      Internet access when it's run, so don't try to use apt/pip/lein/npm
-      to install them).
+      Internet access when it's run, so you cannot use apt/pip/lein/npm to
+      install them), even if they are installed on Cal Poly's Unix servers.
 
 
 Everything you need to know about Bash scripts to write your own script:
